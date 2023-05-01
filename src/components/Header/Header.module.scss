@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+
+  h2 {
+    font-size: 18px;
+  }
+
+  &__link {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
